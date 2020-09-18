@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+        String input;
+        String email ="";
+        String[] countryNameVsCode;
+        List<String> list=new ArrayList<String>();
+        String country,code,countryAndCode;
+        while(sc.hasNextLine()){
+            input = sc.nextLine();
+            input = "'" + input + "',";
+            email = email + input;
+            //System.out.println(input);
+	    }
+	    System.out.println(email);
+	}
+}
